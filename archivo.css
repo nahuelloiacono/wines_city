@@ -1,0 +1,542 @@
+/* Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+/* Header */
+.fondoMenu {
+  background: linear-gradient(to bottom, rgb(150, 0, 0), rgb(20, 0, 0));
+}
+
+/* Nav */
+/* Logo */
+.logoVino {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Lista de items */
+ul li {
+  background-color: rgb(200, 30, 30);
+  border: 2.5px dashed rgb(20, 20, 20);
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* Títulos */
+/* Keyframe */
+@keyframes color {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+  33% {
+    color: rgb(100, 100, 100);
+  }
+  66% {
+    color: rgb(200, 200, 200);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+
+h1 {
+  background-color: rgb(200, 0, 0);
+  border: 5px double rgb(100, 0, 0);
+  animation-name: color;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  display: block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2.5px;
+  margin-left: auto; /* Centrar con margin */
+  margin-right: auto; /* Centrar con margin */
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h3 {
+  background: linear-gradient(to bottom, rgb(150, 0, 0), rgb(50, 0, 0));
+  border: 5px solid black;
+  color: white;
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 300px;
+  letter-spacing: 5px;
+  margin: 25px 10px 25px 10px;
+  margin-left: auto; /* Centrar con margin */
+  margin-right: auto; /* Centrar con margin */
+  padding: 15px 10px 15px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Main */
+
+/* Index */
+.article {
+  background-color: rgb(200, 30, 30);
+  border: 5px solid black;
+  margin: 10px 15px 10px 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.imagenArticle {
+  border: 10px double black;
+  margin: 10px 15px 10px 15px;
+}
+
+.tituloArticle {
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nosotros */
+.articleNosotros {
+  background-color: rgb(175, 0, 0);
+  border: 5px solid black;
+  margin: 10px;
+  padding: 10px;
+  margin-left: auto; /* Centrar con margin */
+  margin-right: auto; /* Centrar con margin */
+  text-align: center;
+}
+
+.imgNosotros {
+  background-color: rgb(100, 0, 0);
+  border: 10px double black;
+  margin: 10px 15px 10px 15px;
+}
+
+.tituloNosotros {
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.subtituloNosotros {
+  color: black;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+.parrafoNosotros {
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+/* Productos */
+.productoTinto {
+  background-color: rgb(175, 0, 0);
+  border: 5px solid black;
+  margin: 10px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+.productoBlanco {
+  background-color: rgb(175, 0, 0);
+  border: 5px solid black;
+  margin: 10px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+.productoRosado {
+  background-color: rgb(175, 0, 0);
+  border: 5px solid black;
+  margin: 10px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+.imagenProductoTinto {
+  background-color: rgb(100, 0, 0);
+  border: 10px double black;
+  height: 150px;
+  margin: 10px 15px 10px 15px;
+  width: 150px;
+}
+
+.imagenProductoBlanco {
+  background-color: rgb(255, 250, 200);
+  border: 10px double black;
+  height: 150px;
+  margin: 10px 15px 10px 15px;
+  width: 150px;
+}
+
+.imagenProductoRosado {
+  background-color: rgb(255, 145, 145);
+  border: 10px double black;
+  height: 150px;
+  margin: 10px 15px 10px 15px;
+  width: 150px;
+}
+
+.tituloProducto {
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.parrafoProducto {
+  color: black;
+  letter-spacing: 0.5px;
+}
+
+.comprarProducto {
+  background-color: rgb(70, 70, 70);
+  border: 5px double black;
+  color: black;
+  letter-spacing: 0.5px;
+  width: 100px;
+  margin-left: auto; /* Centrar con margin */
+  margin-right: auto; /* Centrar con margin */
+}
+
+/* Contacto */
+.articleWhatsApp {
+  background-color: rgb(0, 255, 0);
+  border: 5px solid black;
+  margin: 10px;
+  padding: 10px;
+  margin-left: auto; /* Centrar con margin */
+  margin-right: auto; /* Centrar con margin */
+  text-align: center;
+}
+
+.articleEmail {
+  background-color: rgb(72, 75, 255);
+  border: 5px solid black;
+  margin: 10px;
+  padding: 10px;
+  margin-left: auto; /* Centrar con margin */
+  margin-right: auto; /* Centrar con margin */
+  text-align: center;
+}
+
+.logoContacto {
+  height: 100px;
+  width: 50%;
+}
+
+.tituloContacto {
+  color: white;
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 60%;
+  letter-spacing: 5px;
+  margin: 25px 10px 25px 10px;
+  margin-left: auto; /* Centrar con margin */
+  margin-right: auto; /* Centrar con margin */
+  padding: 15px 10px 15px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.parrafoContacto {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.formulario {
+  background-color: rgb(136, 237, 255);
+  border: 5px solid black;
+  margin: 10px;
+  padding: 10px;
+  margin-left: auto; /* Centrar con margin */
+  margin-right: auto; /* Centrar con margin */
+  text-align: center;
+}
+
+legend {
+  color: black;
+  font-weight: bolder;
+  padding: 10px 0px 10px 0px;
+}
+
+form p {
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+
+.opciones {
+  color: white;
+}
+
+/* Footer */
+footer {
+  margin: 50px 0px 0px 0px;
+}
+
+.footerPadre {
+  background: linear-gradient(to bottom, rgb(150, 0, 0), rgb(30, 30, 30));
+  color: black;
+  text-align: center;
+}
+
+.footerHijos {
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.footerParrafo {
+  color: white;
+  font-weight: lighter;
+}
+
+small {
+  color: white;
+}
+
+/* Responsive GRID */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+/* Col */
+[class*="col-"] {
+  float: center;
+  padding: 15px;
+}
+
+/* Row */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Media Queries */
+/* Desktop  */
+@media screen and (min-width: 1024px) {
+  .logoVino {
+    height: 50px;
+    width: 50px;
+  }
+  .display {
+    display: flex;
+  }
+  .article {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .imagenArticle {
+    height: 200px;
+    width: 50%;
+  }
+  .articleNosotros {
+    width: 60%;
+  }
+  .imgNosotros {
+    height: 400px;
+    width: 50%;
+  }
+  .productoTinto {
+    width: 25%;
+  }
+  .productoBlanco {
+    width: 25%;
+  }
+  .productoRosado {
+    width: 25%;
+  }
+  .articleWhatsApp {
+    width: 40%;
+  }
+  .articleEmail {
+    width: 40%;
+  }
+  .tituloContacto {
+    width: 50%;
+  }
+  .formulario {
+    width: 50%;
+  }
+  textarea {
+    width: 50%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .logoVino {
+    height: 40px;
+    width: 40px;
+  }
+  .display {
+    display: inline;
+  }
+  .article {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .imagenArticle {
+    height: 175px;
+    width: 50%;
+  }
+  .articleNosotros {
+    width: 70%;
+  }
+  .imgNosotros {
+    height: 300px;
+    width: 50%;
+  }
+  .productoTinto {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .productoBlanco {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .productoRosado {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .articleWhatsApp {
+    width: 60%;
+  }
+  .articleEmail {
+    width: 60%;
+  }
+  .tituloContacto {
+    width: 60%;
+  }
+  .formulario {
+    width: 60%;
+  }
+  textarea {
+    width: 60%;
+  }
+}
+
+/* Smartphone */
+/* Min 320px width x 568px height */
+
+@media screen and (max-width: 767px) {
+  .logoVino {
+    height: 30px;
+    width: 30px;
+  }
+  .display {
+    display: inline;
+  }
+  .article {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .imagenArticle {
+    height: 150px;
+    width: 50%;
+  }
+  .articleNosotros {
+    width: 80%;
+  }
+  .imgNosotros {
+    height: 200px;
+    width: 50%;
+  }
+  .productoTinto {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .productoBlanco {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .productoRosado {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .articleWhatsApp {
+    width: 80%;
+  }
+  .articleEmail {
+    width: 80%;
+  }
+  .tituloContacto {
+    width: 90%;
+  }
+  .formulario {
+    width: 80%;
+  }
+  textarea {
+    width: 80%;
+  }
+}

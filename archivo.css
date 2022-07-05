@@ -15,12 +15,6 @@ body {
 }
 
 /* Nav */
-/* Logo */
-.logoVino {
-  margin: 5px;
-  padding: 5px;
-}
-
 /* Lista de items */
 ul li {
   background-color: rgb(200, 30, 30);
@@ -39,8 +33,8 @@ ul li {
 }
 
 /* Títulos */
-/* Keyframe */
-@keyframes color {
+/* Keyframes */
+@keyframes colorH1 {
   0% {
     color: rgb(0, 0, 0);
   }
@@ -54,42 +48,57 @@ ul li {
     color: rgb(255, 255, 255);
   }
 }
+@keyframes colorH3 {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  33% {
+    color: rgb(255, 0, 0);
+  }
+  66% {
+    color: rgb(175, 0, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
 
 h1 {
   background-color: rgb(200, 0, 0);
   border: 5px double rgb(100, 0, 0);
-  animation-name: color;
+  animation-name: colorH1;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   display: block;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
   letter-spacing: 2.5px;
-  margin-left: auto; /* Centrar con margin */
-  margin-right: auto; /* Centrar con margin */
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 5px 10px 5px;
   text-align: center;
   text-decoration: none;
 }
 
 h3 {
-  background: linear-gradient(to bottom, rgb(150, 0, 0), rgb(50, 0, 0));
+  background: linear-gradient(to bottom, rgb(150, 0, 0), rgb(100, 0, 0));
   border: 5px solid black;
-  color: white;
+  animation-name: colorH3;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
   display: block;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 300px;
   letter-spacing: 5px;
   margin: 25px 10px 25px 10px;
-  margin-left: auto; /* Centrar con margin */
-  margin-right: auto; /* Centrar con margin */
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px 10px 15px 10px;
   text-align: center;
   text-decoration: none;
 }
 
 /* Main */
-
 /* Index */
 .article {
   background-color: rgb(200, 30, 30);
@@ -121,8 +130,8 @@ a {
   border: 5px solid black;
   margin: 10px;
   padding: 10px;
-  margin-left: auto; /* Centrar con margin */
-  margin-right: auto; /* Centrar con margin */
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -220,8 +229,8 @@ a {
   color: black;
   letter-spacing: 0.5px;
   width: 100px;
-  margin-left: auto; /* Centrar con margin */
-  margin-right: auto; /* Centrar con margin */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Contacto */
@@ -230,8 +239,8 @@ a {
   border: 5px solid black;
   margin: 10px;
   padding: 10px;
-  margin-left: auto; /* Centrar con margin */
-  margin-right: auto; /* Centrar con margin */
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -240,8 +249,8 @@ a {
   border: 5px solid black;
   margin: 10px;
   padding: 10px;
-  margin-left: auto; /* Centrar con margin */
-  margin-right: auto; /* Centrar con margin */
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -257,8 +266,8 @@ a {
   width: 60%;
   letter-spacing: 5px;
   margin: 25px 10px 25px 10px;
-  margin-left: auto; /* Centrar con margin */
-  margin-right: auto; /* Centrar con margin */
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px 10px 15px 10px;
   text-align: center;
   text-decoration: none;
@@ -272,12 +281,12 @@ a {
 }
 
 .formulario {
-  background-color: rgb(136, 237, 255);
+  background-color: rgb(225, 225, 225);
   border: 5px solid black;
   margin: 10px;
   padding: 10px;
-  margin-left: auto; /* Centrar con margin */
-  margin-right: auto; /* Centrar con margin */
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -293,7 +302,7 @@ form p {
 }
 
 .opciones {
-  color: white;
+  color: rgb(75, 75, 75);
 }
 
 /* Footer */
@@ -379,6 +388,8 @@ small {
   .logoVino {
     height: 50px;
     width: 50px;
+    margin: 5px;
+    padding: 5px;
   }
   .display {
     display: flex;
@@ -430,6 +441,8 @@ small {
   .logoVino {
     height: 40px;
     width: 40px;
+    margin: 2.5px;
+    padding: 2.5px;
   }
   .display {
     display: inline;
@@ -484,11 +497,10 @@ small {
 
 /* Smartphone */
 /* Min 320px width x 568px height */
-
 @media screen and (max-width: 767px) {
   .logoVino {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
   }
   .display {
     display: inline;
